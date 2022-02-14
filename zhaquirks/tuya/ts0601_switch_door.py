@@ -20,8 +20,6 @@ from zhaquirks.tuya import (
 
 class TuyaGarageSwitchTO(TuyaSwitch):
     """Tuya single channel switch time on out cluster device."""
-
-    signature = { 
         # "node_descriptor": "NodeDescriptor(logical_type=<LogicalType.Router: 1>, complex_descriptor_available=0, 
         #                       user_descriptor_available=0, reserved=0, aps_flags=0, frequency_band=<FrequencyBand.Freq2400MHz: 8>, 
         #                       mac_capability_flags=<MACCapabilityFlags.AllocateAddress|RxOnWhenIdle|MainsPowered|FullFunctionDevice: 142>, 
@@ -60,13 +58,7 @@ class TuyaGarageSwitchTO(TuyaSwitch):
 #   "model": "TS0601",
 #   "class": "zigpy.device.Device"
 # }
-        # "node_descriptor": "<NodeDescriptor byte1=1 byte2=64 mac_capability_flags=142 manufacturer_code=4098
-        #                       maximum_buffer_size=82 maximum_incoming_transfer_size=82 server_mask=11264
-        #                       maximum_outgoing_transfer_size=82 descriptor_capability_field=0>",
-        # device_version=1
-        # input_clusters=[0x0000, 0x0004, 0x0005, 0xef00]
-        # output_clusters=[0x000a, 0x0019]
-        # <SimpleDescriptor endpoint=1 profile=260 device_type=51 device_version=1 input_clusters=[0, 4, 5, 61184] output_clusters=[10, 25]>
+    signature = { 
         MODELS_INFO: [
             ("_TZE200_nklqjk62", "TS0601"),
         ],
@@ -81,7 +73,7 @@ class TuyaGarageSwitchTO(TuyaSwitch):
                     TuyaManufCluster.cluster_id,
                 ],
                 OUTPUT_CLUSTERS: [Time.cluster_id, Ota.cluster_id],
-            }
+            },
             242: {
                 PROFILE_ID: 0xA1E0,
                 DEVICE_TYPE: 0x0061,
@@ -90,7 +82,7 @@ class TuyaGarageSwitchTO(TuyaSwitch):
             },
         },
     }
-
+    
     replacement = {
         ENDPOINTS: {
             1: {
@@ -103,12 +95,12 @@ class TuyaGarageSwitchTO(TuyaSwitch):
                     TuyaOnOff,
                 ],
                 OUTPUT_CLUSTERS: [Time.cluster_id, Ota.cluster_id],
-            }
+            },
             242: {
                 PROFILE_ID: 0xA1E0,
                 DEVICE_TYPE: 0x0061,
                 INPUT_CLUSTERS: [],
                 OUTPUT_CLUSTERS: [0x0021],
             },
-        }
+        },
     }
