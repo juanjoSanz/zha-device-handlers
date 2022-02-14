@@ -82,7 +82,7 @@ class TuyaGarageSwitchTO(TuyaSwitch):
                 ],
                 OUTPUT_CLUSTERS: [Time.cluster_id, Ota.cluster_id],
             }
-           242: {
+            242: {
                 PROFILE_ID: 0xA1E0,
                 DEVICE_TYPE: 0x0061,
                 INPUT_CLUSTERS: [],
