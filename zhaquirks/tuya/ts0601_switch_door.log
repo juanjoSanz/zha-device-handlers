@@ -1,0 +1,952 @@
+2022-02-16 17:04:10 DEBUG (MainThread) [zigpy.appdb] SQLite version for <module 'sqlite3' from '/usr/local/lib/python3.9/sqlite3/__init__.py'>: 3.34.1
+2022-02-16 17:04:18 DEBUG (MainThread) [zigpy.appdb] Current database version is v7
+2022-02-16 17:04:18 DEBUG (MainThread) [zigpy.appdb] Loading application state
+2022-02-16 17:04:19 WARNING (MainThread) [zigpy.zcl] Unknown cluster 61184
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0000] Attribute id: 4 value: LUMI
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0000] Attribute id: 5 value: lumi.plug.mmeu01
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0000] Attribute id: 4 value: LUMI
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0000] Attribute id: 5 value: lumi.plug.mmeu01
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0000] Attribute id: 4 value: _TZ3000_oborybow
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0000] Attribute id: 5 value: TS0502A
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xf34c:1:0x0000] Attribute id: 4 value: IKEA of Sweden
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xf34c:1:0x0000] Attribute id: 5 value: TRADFRI bulb E27 W opal 1000lm
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xe6b9:1:0x0000] Attribute id: 4 value: _TZE200_nklqjk62
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xe6b9:1:0x0000] Attribute id: 5 value: TS0601
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0300] Attribute id: 4 value: 19660
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Checking quirks for LUMI lumi.plug.mmeu01 (04:cf:8c:df:3c:7c:33:b0)
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xiaomi.aqara.plug_mmeu01.Plug'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Found custom device replacement for 04:cf:8c:df:3c:7c:33:b0: <class 'zhaquirks.xiaomi.aqara.plug_mmeu01.Plug'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Checking quirks for LUMI lumi.plug.mmeu01 (04:cf:8c:df:3c:7c:2f:bc)
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xiaomi.aqara.plug_mmeu01.Plug'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Found custom device replacement for 04:cf:8c:df:3c:7c:2f:bc: <class 'zhaquirks.xiaomi.aqara.plug_mmeu01.Plug'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Checking quirks for _TZ3000_oborybow TS0502A (58:8e:81:ff:fe:fa:21:23)
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.lidl.cct.CCTLight'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Found custom device replacement for 58:8e:81:ff:fe:fa:21:23: <class 'zhaquirks.lidl.cct.CCTLight'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Checking quirks for None None (00:12:4b:00:21:5f:f7:d5)
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee_io.XBeeSensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee3_io.XBee3Sensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.tag_v4.SmartThingsTagV4'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.multi.SmartthingsMultiPurposeSensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.netvox.z308e3ed.Z308E3ED'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.gledopto.soposhgu10.SoposhGU10'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {11, 13} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'bellows.zigbee.application.EZSPCoordinator'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee_io.XBeeSensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee3_io.XBee3Sensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.tag_v4.SmartThingsTagV4'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.multi.SmartthingsMultiPurposeSensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.netvox.z308e3ed.Z308E3ED'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.gledopto.soposhgu10.SoposhGU10'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {11, 13} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'bellows.zigbee.application.EZSPCoordinator'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee_io.XBeeSensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee3_io.XBee3Sensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.tag_v4.SmartThingsTagV4'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.multi.SmartthingsMultiPurposeSensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.netvox.z308e3ed.Z308E3ED'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.gledopto.soposhgu10.SoposhGU10'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {11, 13} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'bellows.zigbee.application.EZSPCoordinator'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee_io.XBeeSensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee3_io.XBee3Sensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.tag_v4.SmartThingsTagV4'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.multi.SmartthingsMultiPurposeSensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.netvox.z308e3ed.Z308E3ED'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.gledopto.soposhgu10.SoposhGU10'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {11, 13} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'bellows.zigbee.application.EZSPCoordinator'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Checking quirks for IKEA of Sweden TRADFRI bulb E27 W opal 1000lm (08:6b:d7:ff:fe:35:1a:5a)
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.ikea.tradfriplug.TradfriPlug'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1, 2, 242} {1}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee_io.XBeeSensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee3_io.XBee3Sensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.tag_v4.SmartThingsTagV4'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because profile_id mismatch on at least one endpoint
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.multi.SmartthingsMultiPurposeSensor'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because profile_id mismatch on at least one endpoint
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.netvox.z308e3ed.Z308E3ED'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because profile_id mismatch on at least one endpoint
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.gledopto.soposhgu10.SoposhGU10'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {11, 13} {1}
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'bellows.zigbee.application.EZSPCoordinator'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Fail because profile_id mismatch on at least one endpoint
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Checking quirks for _TZE200_nklqjk62 TS0601 (a4:c1:38:fe:ed:7b:97:75)
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.tuya.ts0601_switch_door.TuyaGarageSwitchTO'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.quirks.registry] Found custom device replacement for a4:c1:38:fe:ed:7b:97:75: <class 'zhaquirks.tuya.ts0601_switch_door.TuyaGarageSwitchTO'>
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0000] Attribute id: 4 value: LUMI
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0702] Attribute id: 770 value: 1000
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0702] Attribute id: 769 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0702] Attribute id: 768 value: 0
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0702] Attribute id: 772 value: 0
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0000] Attribute id: 7 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0000] Attribute id: 5 value: lumi.plug.mmeu01
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0000] Attribute id: 1 value: 22
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0000] Attribute id: 4 value: LUMI
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0702] Attribute id: 770 value: 1000
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0702] Attribute id: 769 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0702] Attribute id: 768 value: 0
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0702] Attribute id: 772 value: 0
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0000] Attribute id: 7 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0000] Attribute id: 5 value: lumi.plug.mmeu01
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0000] Attribute id: 1 value: 22
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0b04] Attribute id: 1541 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0b04] Attribute id: 1027 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0b04] Attribute id: 1540 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0b04] Attribute id: 1026 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0b04] Attribute id: 1541 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0b04] Attribute id: 1027 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0b04] Attribute id: 1540 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0b04] Attribute id: 1026 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0000] Attribute id: 4 value: _TZ3000_oborybow
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0000] Attribute id: 5 value: TS0502A
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0300] Attribute id: 16394 value: 16
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xf34c:1:0x0000] Attribute id: 4 value: IKEA of Sweden
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xf34c:1:0x0000] Attribute id: 5 value: TRADFRI bulb E27 W opal 1000lm
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xf34c:1:0x0006] Attribute id: 0 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xf34c:1:0x0008] Attribute id: 0 value: 254
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0000] Attribute id: 6 value: 09-06-2019
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0000] Attribute id: 6 value: 09-06-2019
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xe6b9:1:0x0000] Attribute id: 4 value: _TZE200_nklqjk62
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xe6b9:1:0x0000] Attribute id: 5 value: TS0601
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0006] Attribute id: 245 value: 56254720
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0006] Attribute id: 0 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0006] Attribute id: 0 value: 0
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0006] Attribute id: 245 value: 37291008
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:21:0x000c] Attribute id: 85 value: 0.0
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0006] Attribute id: 0 value: 0
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0008] Attribute id: 0 value: 5
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0300] Attribute id: 8 value: 2
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0300] Attribute id: 7 value: 153
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0300] Attribute id: 3 value: 45874
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0300] Attribute id: 4 value: 19660
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:21:0x000c] Attribute id: 85 value: 0.0
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xe6b9:1:0x0000] Attribute id: 1 value: 70
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xe6b9:1:0x0000] Attribute id: 65506 value: 54
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xe6b9:1:0x0000] Attribute id: 65508 value: 1
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0xe6b9:1:0x0000] Attribute id: 65503 value: ��)i��)i��)i	�)i'�)i
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x1475:1:0x0000] Attribute id: 1 value: 80
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x5a61:1:0x0b04] Attribute id: 1291 value: 0
+2022-02-16 17:04:20 DEBUG (MainThread) [zigpy.appdb] [0x3904:1:0x0b04] Attribute id: 1291 value: 0
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.device] [0x0000] Scheduling initialization
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.util] Tries remaining: 3
+2022-02-16 17:04:29 INFO (MainThread) [zigpy.device] [0x0000] Requesting 'Node Descriptor'
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.util] Tries remaining: 2
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.device] [0x0000] Extending timeout for 0x01 request
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <ZNPCoordinator model='CC1352/CC2652, Z-Stack 3.30+ (build 20200805)' manuf='Texas Instruments' nwk=0x0000 ieee=00:12:4b:00:21:5f:f7:d5 is_initialized=False> from ep 0 to ep 0, cluster ZDOCmd.Node_Desc_req: b'\x01\x00\x00'
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] ZDO request ZDOCmd.Node_Desc_req: [0x0000]
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] No handler for ZDO request:ZDOCmd.Node_Desc_req([0x0000])
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <ZNPCoordinator model='CC1352/CC2652, Z-Stack 3.30+ (build 20200805)' manuf='Texas Instruments' nwk=0x0000 ieee=00:12:4b:00:21:5f:f7:d5 is_initialized=False> from ep 0 to ep 0, cluster 32770: b'\x01\x00\x00\x00\x00@\x8f\x00\x00P\xa0\x00\x01,\xa0\x00\x00'
+2022-02-16 17:04:29 INFO (MainThread) [zigpy.device] [0x0000] Got Node Descriptor: NodeDescriptor(logical_type=<LogicalType.Coordinator: 0>, complex_descriptor_available=0, user_descriptor_available=0, reserved=0, aps_flags=0, frequency_band=<FrequencyBand.Freq2400MHz: 8>, mac_capability_flags=<MACCapabilityFlags.AllocateAddress|RxOnWhenIdle|MainsPowered|FullFunctionDevice|AlternatePanCoordinator: 143>, manufacturer_code=0, maximum_buffer_size=80, maximum_incoming_transfer_size=160, server_mask=11265, maximum_outgoing_transfer_size=160, descriptor_capability_field=<DescriptorCapability.NONE: 0>, *allocate_address=True, *is_alternate_pan_coordinator=True, *is_coordinator=True, *is_end_device=False, *is_full_function_device=True, *is_mains_powered=True, *is_receiver_on_when_idle=True, *is_router=False, *is_security_capable=False)
+2022-02-16 17:04:29 INFO (MainThread) [zigpy.device] [0x0000] Discovering endpoints
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.util] Tries remaining: 3
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <ZNPCoordinator model='CC1352/CC2652, Z-Stack 3.30+ (build 20200805)' manuf='Texas Instruments' nwk=0x0000 ieee=00:12:4b:00:21:5f:f7:d5 is_initialized=False> from ep 0 to ep 0, cluster ZDOCmd.Active_EP_req: b'\x02\x00\x00'
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] ZDO request ZDOCmd.Active_EP_req: [0x0000]
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] No handler for ZDO request:ZDOCmd.Active_EP_req([0x0000])
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <ZNPCoordinator model='CC1352/CC2652, Z-Stack 3.30+ (build 20200805)' manuf='Texas Instruments' nwk=0x0000 ieee=00:12:4b:00:21:5f:f7:d5 is_initialized=False> from ep 0 to ep 0, cluster 32773: b'\x02\x00\x00\x00\x02\x02\x01'
+2022-02-16 17:04:29 INFO (MainThread) [zigpy.device] [0x0000] Discovered endpoints: [2, 1]
+2022-02-16 17:04:29 INFO (MainThread) [zigpy.device] [0x0000] Initializing endpoints [<Endpoint id=2 in=[] out=[] status=<Status.NEW: 0>>, <Endpoint id=1 in=[] out=[] status=<Status.NEW: 0>>]
+2022-02-16 17:04:29 INFO (MainThread) [zigpy.endpoint] [0x0000:2] Discovering endpoint information
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.util] Tries remaining: 3
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <ZNPCoordinator model='CC1352/CC2652, Z-Stack 3.30+ (build 20200805)' manuf='Texas Instruments' nwk=0x0000 ieee=00:12:4b:00:21:5f:f7:d5 is_initialized=False> from ep 0 to ep 0, cluster ZDOCmd.Simple_Desc_req: b'\x03\x00\x00\x02'
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] ZDO request ZDOCmd.Simple_Desc_req: [0x0000, 2]
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] No handler for ZDO request:ZDOCmd.Simple_Desc_req([0x0000, 2])
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <ZNPCoordinator model='CC1352/CC2652, Z-Stack 3.30+ (build 20200805)' manuf='Texas Instruments' nwk=0x0000 ieee=00:12:4b:00:21:5f:f7:d5 is_initialized=False> from ep 0 to ep 0, cluster 32772: b'\x03\x00\x00\x00\n\x02^\xc0 \x08\x00\x01\x00\x00\x00'
+2022-02-16 17:04:29 INFO (MainThread) [zigpy.endpoint] [0x0000:2] Discovered endpoint information: SizePrefixedSimpleDescriptor(endpoint=2, profile=49246, device_type=2080, device_version=0, input_clusters=[0], output_clusters=[])
+2022-02-16 17:04:29 INFO (MainThread) [zigpy.endpoint] [0x0000:1] Discovering endpoint information
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.util] Tries remaining: 3
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <ZNPCoordinator model='CC1352/CC2652, Z-Stack 3.30+ (build 20200805)' manuf='Texas Instruments' nwk=0x0000 ieee=00:12:4b:00:21:5f:f7:d5 is_initialized=False> from ep 0 to ep 0, cluster ZDOCmd.Simple_Desc_req: b'\x04\x00\x00\x01'
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] ZDO request ZDOCmd.Simple_Desc_req: [0x0000, 1]
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] No handler for ZDO request:ZDOCmd.Simple_Desc_req([0x0000, 1])
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <ZNPCoordinator model='CC1352/CC2652, Z-Stack 3.30+ (build 20200805)' manuf='Texas Instruments' nwk=0x0000 ieee=00:12:4b:00:21:5f:f7:d5 is_initialized=False> from ep 0 to ep 0, cluster 32772: b'\x04\x00\x00\x00\x10\x01\x04\x01\x00\x04\x00\x02\x00\x00\x19\x00\x02\x00\x05\x02\x05'
+2022-02-16 17:04:29 INFO (MainThread) [zigpy.endpoint] [0x0000:1] Discovered endpoint information: SizePrefixedSimpleDescriptor(endpoint=1, profile=260, device_type=1024, device_version=0, input_clusters=[0, 25], output_clusters=[1280, 1282])
+2022-02-16 17:04:29 INFO (MainThread) [zigpy.device] [0x0000] Already have model and manufacturer info
+2022-02-16 17:04:29 INFO (MainThread) [zigpy.device] [0x0000] Discovered basic device information for <ZNPCoordinator model='CC1352/CC2652, Z-Stack 3.30+ (build 20200805)' manuf='Texas Instruments' nwk=0x0000 ieee=00:12:4b:00:21:5f:f7:d5 is_initialized=True>
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.application] Device is initialized <ZNPCoordinator model='CC1352/CC2652, Z-Stack 3.30+ (build 20200805)' manuf='Texas Instruments' nwk=0x0000 ieee=00:12:4b:00:21:5f:f7:d5 is_initialized=True>
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Checking quirks for Texas Instruments CC1352/CC2652, Z-Stack 3.30+ (build 20200805) (00:12:4b:00:21:5f:f7:d5)
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee_io.XBeeSensor'>
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1, 2}
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee3_io.XBee3Sensor'>
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1, 2}
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.tag_v4.SmartThingsTagV4'>
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.multi.SmartthingsMultiPurposeSensor'>
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.netvox.z308e3ed.Z308E3ED'>
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.gledopto.soposhgu10.SoposhGU10'>
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {11, 13} {1, 2}
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'bellows.zigbee.application.EZSPCoordinator'>
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1} {1, 2}
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] ZDO request ZDOCmd.Mgmt_Permit_Joining_rsp: [<Status.SUCCESS: 0>]
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] No handler for ZDO request:ZDOCmd.Mgmt_Permit_Joining_rsp([<Status.SUCCESS: 0>])
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] ZDO request ZDOCmd.Mgmt_Permit_Joining_rsp: [<Status.SUCCESS: 0>]
+2022-02-16 17:04:29 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] No handler for ZDO request:ZDOCmd.Mgmt_Permit_Joining_rsp([<Status.SUCCESS: 0>])
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'button' component -> 'ZHAIdentifyButton' using ['identify']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'ElectricalMeasurement' using ['electrical_measurement']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'ElectricalMeasurementApparentPower' using ['electrical_measurement']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'ElectricalMeasurementRMSCurrent' using ['electrical_measurement']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'ElectricalMeasurementRMSVoltage' using ['electrical_measurement']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'SmartEnergyMetering' using ['smartenergy_metering']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'SmartEnergySummation' using ['smartenergy_metering']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'DeviceTemperature' using ['device_temperature']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'RSSISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'LQISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'AnalogInput' using ['analog_input']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] [0x5A61](LUMI lumi.plug.mmeu01) restored as 'available', last seen: 0:02:58 ago, consider_unavailable_time: 7200 seconds
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'button' component -> 'ZHAIdentifyButton' using ['identify']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'ElectricalMeasurement' using ['electrical_measurement']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'ElectricalMeasurementApparentPower' using ['electrical_measurement']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'ElectricalMeasurementRMSCurrent' using ['electrical_measurement']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'ElectricalMeasurementRMSVoltage' using ['electrical_measurement']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'SmartEnergyMetering' using ['smartenergy_metering']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'SmartEnergySummation' using ['smartenergy_metering']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'DeviceTemperature' using ['device_temperature']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'RSSISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'LQISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'AnalogInput' using ['analog_input']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] [0x3904](LUMI lumi.plug.mmeu01) restored as 'available', last seen: 0:05:13 ago, consider_unavailable_time: 7200 seconds
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'button' component -> 'ZHAIdentifyButton' using ['identify']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'RSSISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'LQISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] [0x1475](_TZ3000_oborybow TS0502A) restored as 'available', last seen: 0:03:04 ago, consider_unavailable_time: 7200 seconds
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'RSSISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'LQISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'RSSISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'LQISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] [0x0000](Texas Instruments CC1352/CC2652, Z-Stack 3.30+ (build 20200805)) restored as 'available', last seen: 0:05:14 ago, consider_unavailable_time: 7200 seconds
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'button' component -> 'ZHAIdentifyButton' using ['identify']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'RSSISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'LQISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] [0xF34C](IKEA of Sweden TRADFRI bulb E27 W opal 1000lm) restored as 'unavailable', last seen: 2:50:03 ago, consider_unavailable_time: 7200 seconds
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'RSSISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'LQISensor' using ['basic']
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] [0xE6B9](_TZE200_nklqjk62 TS0601) restored as 'unavailable', last seen: 2:49:39 ago, consider_unavailable_time: 7200 seconds
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] Loading battery powered devices
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] Loading mains powered devices
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x5A61](lumi.plug.mmeu01): started initialization
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:ZDO](lumi.plug.mmeu01): 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x3904](lumi.plug.mmeu01): started initialization
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:ZDO](lumi.plug.mmeu01): 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0006]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0002]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0003]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0702]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0000]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0019]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:21:0x000c]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0006]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0000]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0702]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0003]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0002]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0019]: 'async_initialize' stage succeeded
+2022-02-16 17:04:29 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:21:0x000c]: 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x5A61](lumi.plug.mmeu01): power source: Mains
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x5A61](lumi.plug.mmeu01): completed initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x3904](lumi.plug.mmeu01): power source: Mains
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x3904](lumi.plug.mmeu01): completed initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x1475](TS0502A): started initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:ZDO](TS0502A): 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x0000](CC1352/CC2652, Z-Stack 3.30+ (build 20200805)): started initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x0000:ZDO](CC1352/CC2652, Z-Stack 3.30+ (build 20200805)): 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0300]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0008]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x0000:1:0x0000]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x0000:1:0x0000]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x0000:2:0x0000]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x0000:2:0x0000]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x0000:1:0x0000]: 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x0000:2:0x0000]: 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x0000](CC1352/CC2652, Z-Stack 3.30+ (build 20200805)): power source: Mains
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x0000](CC1352/CC2652, Z-Stack 3.30+ (build 20200805)): completed initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xF34C](TRADFRI bulb E27 W opal 1000lm): started initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:ZDO](TRADFRI bulb E27 W opal 1000lm): 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0003]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0003]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0000]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0000]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x1000]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x1000]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0019]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0019]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0005]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0005]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0008] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=8 command_id=Command.Read_Attributes_rsp>
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0008]: received attribute: 0 update with value: 5
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0008]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0000]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0000]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0003]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0003]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x1000]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x1000]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0019]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0019]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=6 command_id=Command.Read_Attributes_rsp>
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0006]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0300] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=7 command_id=Command.Read_Attributes_rsp>
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0300]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0006]: 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0300]: 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0008]: 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0000]: 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0003]: 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x1000]: 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0019]: 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x1475](TS0502A): power source: Mains
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0x1475](TS0502A): completed initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xE6B9](TS0601): started initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:ZDO](TS0601): 'async_initialize' stage succeeded
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0000]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0000]: finished channel initialization
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0019]: initializing channel: from_cache: False
+2022-02-16 17:04:30 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0019]: finished channel initialization
+2022-02-16 17:04:35 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: failed to get attributes '['current_level']' on 'level' cluster: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>
+2022-02-16 17:04:35 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: async_initialize: retryable request #1 failed: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>. Retrying in 0.9s
+2022-02-16 17:04:35 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>
+2022-02-16 17:04:35 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: async_initialize: retryable request #1 failed: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>. Retrying in 1.0s
+2022-02-16 17:04:36 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: initializing channel: from_cache: False
+2022-02-16 17:04:47 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:04:47 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: failed to get attributes '['current_level']' on 'level' cluster: 
+2022-02-16 17:04:47 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: async_initialize: retryable request #2 failed: . Retrying in 1.2s
+2022-02-16 17:04:47 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: 
+2022-02-16 17:04:47 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: async_initialize: retryable request #1 failed: . Retrying in 1.1s
+2022-02-16 17:04:49 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:04:49 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: initializing channel: from_cache: False
+2022-02-16 17:05:10 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>
+2022-02-16 17:05:10 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: async_initialize: retryable request #2 failed: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>. Retrying in 1.1s
+2022-02-16 17:05:10 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: failed to get attributes '['current_level']' on 'level' cluster: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>
+2022-02-16 17:05:10 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: async_initialize: retryable request #3 failed: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>. Retrying in 2.6s
+2022-02-16 17:05:10 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: Request failed after 5 attempts: <Status.MAC_NO_ACK: 233>
+2022-02-16 17:05:10 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: async_initialize: retryable request #2 failed: Request failed after 5 attempts: <Status.MAC_NO_ACK: 233>. Retrying in 1.1s
+2022-02-16 17:05:11 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:05:11 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:05:13 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: initializing channel: from_cache: False
+2022-02-16 17:05:16 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>
+2022-02-16 17:05:16 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: async_initialize: retryable request #3 failed: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>. Retrying in 2.4s
+2022-02-16 17:05:16 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: Request failed after 5 attempts: <Status.MAC_NO_ACK: 233>
+2022-02-16 17:05:16 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: async_initialize: retryable request #3 failed: Request failed after 5 attempts: <Status.MAC_NO_ACK: 233>. Retrying in 3.4s
+2022-02-16 17:05:18 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: failed to get attributes '['current_level']' on 'level' cluster: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>
+2022-02-16 17:05:18 WARNING (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: async_initialize: all attempts have failed: [DeliveryError('Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>'), TimeoutError(), DeliveryError('Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>'), DeliveryError('Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>')]
+2022-02-16 17:05:18 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:05:20 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>
+2022-02-16 17:05:25 WARNING (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: async_initialize: all attempts have failed: [DeliveryError('Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>'), DeliveryError('Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>'), DeliveryError('Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>'), DeliveryError('Request failed after 5 attempts: <Status.NWK_INVALID_REQUEST: 194>')]
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0006]: 'async_initialize' stage succeeded
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0008]: 'async_initialize' stage succeeded
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0003]: 'async_initialize' stage succeeded
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0000]: 'async_initialize' stage succeeded
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x1000]: 'async_initialize' stage succeeded
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0019]: 'async_initialize' stage succeeded
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xF34C:1:0x0005]: 'async_initialize' stage succeeded
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xF34C](TRADFRI bulb E27 W opal 1000lm): power source: Mains
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xF34C](TRADFRI bulb E27 W opal 1000lm): completed initialization
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: Request failed after 5 attempts: <Status.MAC_NO_ACK: 233>
+2022-02-16 17:05:25 WARNING (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: async_initialize: all attempts have failed: [TimeoutError(), DeliveryError('Request failed after 5 attempts: <Status.MAC_NO_ACK: 233>'), DeliveryError('Request failed after 5 attempts: <Status.MAC_NO_ACK: 233>'), DeliveryError('Request failed after 5 attempts: <Status.MAC_NO_ACK: 233>')]
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0006]: 'async_initialize' stage succeeded
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0000]: 'async_initialize' stage succeeded
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xE6B9:1:0x0019]: 'async_initialize' stage succeeded
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xE6B9](TS0601): power source: Mains
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xE6B9](TS0601): completed initialization
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.entity] None: polling current state
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0006]: attempting to update onoff state - from cache: False
+2022-02-16 17:05:25 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0006]: attempting to update onoff state - from cache: False
+2022-02-16 17:05:26 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=21 command_id=Command.Read_Attributes_rsp>
+2022-02-16 17:05:26 DEBUG (MainThread) [zigpy.zcl] [0x5a61:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=22 command_id=Command.Read_Attributes_rsp>
+2022-02-16 17:05:26 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0008] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=24 command_id=Command.Read_Attributes_rsp>
+2022-02-16 17:05:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x1475:1:0x0008]: received attribute: 0 update with value: 5
+2022-02-16 17:05:26 DEBUG (MainThread) [zigpy.zcl] [0x3904:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=23 command_id=Command.Read_Attributes_rsp>
+2022-02-16 17:05:32 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0300] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=25 command_id=Command.Read_Attributes_rsp>
+2022-02-16 17:05:33 INFO (MainThread) [zigpy_znp.zigbee.application] Permitting joins for 60 seconds
+2022-02-16 17:05:33 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.MgmtPermitJoinReq.Req(AddrMode=<AddrMode.NWK: 2>, Dst=0x0000, Duration=60, TCSignificance=1)
+2022-02-16 17:05:33 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MgmtPermitJoinReq.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:33 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MgmtPermitJoinRsp.Callback(Src=0x0000, Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:33 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MsgCbIncoming.Callback(Src=0x0000, IsBroadcast=<Bool.false: 0>, ClusterId=32822, SecurityUse=0, TSN=3, MacDst=0x0000, Data=b'\x00')
+2022-02-16 17:05:33 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.ExtRouteChk.Req(Dst=0x5A61, RtStatus=<RouteStatus.ACTIVE: 1>, Options=<RouteOptions.NO_ROUTE_CACHE|MTO_ROUTE: 3>)
+2022-02-16 17:05:33 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] ZDO request ZDOCmd.Mgmt_Permit_Joining_rsp: [<Status.SUCCESS: 0>]
+2022-02-16 17:05:33 DEBUG (MainThread) [zigpy.zdo] [0x0000:zdo] No handler for ZDO request:ZDOCmd.Mgmt_Permit_Joining_rsp([<Status.SUCCESS: 0>])
+2022-02-16 17:05:33 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.ExtRouteChk.Rsp(Status=<RoutingStatus.FAIL: 1>)
+2022-02-16 17:05:33 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.ExtRouteDisc.Req(Dst=0x5A61, Options=<RouteDiscoveryOptions.UNICAST: 0>, Radius=30)
+2022-02-16 17:05:33 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.ExtRouteDisc.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:35 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.MgmtPermitJoinReq.Req(AddrMode=<AddrMode.NWK: 2>, Dst=0x5A61, Duration=60, TCSignificance=0)
+2022-02-16 17:05:35 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MgmtPermitJoinReq.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:35 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MgmtPermitJoinRsp.Callback(Src=0x5A61, Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:35 DEBUG (MainThread) [zigpy_znp.api] Command was not handled
+2022-02-16 17:05:35 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MsgCbIncoming.Callback(Src=0x5A61, IsBroadcast=<Bool.false: 0>, ClusterId=32822, SecurityUse=0, TSN=4, MacDst=0x0000, Data=b'\x00')
+2022-02-16 17:05:35 DEBUG (MainThread) [zigpy.zdo] [0x5a61:zdo] ZDO request ZDOCmd.Mgmt_Permit_Joining_rsp: [<Status.SUCCESS: 0>]
+2022-02-16 17:05:35 DEBUG (MainThread) [zigpy.zdo] [0x5a61:zdo] No handler for ZDO request:ZDOCmd.Mgmt_Permit_Joining_rsp([<Status.SUCCESS: 0>])
+2022-02-16 17:05:41 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.TCDevInd.Callback(SrcNwk=0xFF96, SrcIEEE=a4:c1:38:3b:09:ba:bb:13, ParentNwk=0x5A61)
+2022-02-16 17:05:41 INFO (MainThread) [zigpy_znp.zigbee.application] TC device join: ZDO.TCDevInd.Callback(SrcNwk=0xFF96, SrcIEEE=a4:c1:38:3b:09:ba:bb:13, ParentNwk=0x5A61)
+2022-02-16 17:05:41 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.TCDevInd.Callback(SrcNwk=0xFF96, SrcIEEE=a4:c1:38:3b:09:ba:bb:13, ParentNwk=0x5A61)
+2022-02-16 17:05:41 INFO (MainThread) [zigpy_znp.zigbee.application] TC device join: ZDO.TCDevInd.Callback(SrcNwk=0xFF96, SrcIEEE=a4:c1:38:3b:09:ba:bb:13, ParentNwk=0x5A61)
+2022-02-16 17:05:41 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.ExtRouteDisc.Req(Dst=0xFF96, Options=<RouteDiscoveryOptions.UNICAST: 0>, Radius=30)
+2022-02-16 17:05:41 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.ExtRouteDisc.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:42 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.EndDeviceAnnceInd.Callback(Src=0xFF96, NWK=0xFF96, IEEE=a4:c1:38:3b:09:ba:bb:13, Capabilities=<MACCapabilities.AllocateShortAddrDuringAssocNeeded|RXWhenIdle|MainsPowered|Router: 142>)
+2022-02-16 17:05:42 DEBUG (MainThread) [zigpy_znp.api] Command was not handled
+2022-02-16 17:05:42 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MsgCbIncoming.Callback(Src=0xFF96, IsBroadcast=<Bool.true: 1>, ClusterId=19, SecurityUse=0, TSN=0, MacDst=0xFFFF, Data=b'\x96\xFF\x13\xBB\xBA\x09\x3B\x38\xC1\xA4\x8E')
+2022-02-16 17:05:42 INFO (MainThread) [zigpy_znp.zigbee.application] ZDO device announce: nwk=0xFF96, ieee=a4:c1:38:3b:09:ba:bb:13, capabilities=142
+2022-02-16 17:05:42 INFO (MainThread) [zigpy.application] New device 0xff96 (a4:c1:38:3b:09:ba:bb:13) joined the network
+2022-02-16 17:05:42 DEBUG (MainThread) [zigpy.device] [0xff96] Scheduling initialization
+2022-02-16 17:05:42 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <Device model=None manuf=None nwk=0xFF96 ieee=a4:c1:38:3b:09:ba:bb:13 is_initialized=False> from ep 0 to ep 0, cluster 19: b'\x00\x96\xff\x13\xbb\xba\t;8\xc1\xa4\x8e'
+2022-02-16 17:05:42 DEBUG (MainThread) [zigpy.zdo] [0xff96:zdo] ZDO request ZDOCmd.Device_annce: [0xFF96, a4:c1:38:3b:09:ba:bb:13, 142]
+2022-02-16 17:05:42 DEBUG (MainThread) [zigpy.util] Tries remaining: 3
+2022-02-16 17:05:42 INFO (MainThread) [zigpy.device] [0xff96] Requesting 'Node Descriptor'
+2022-02-16 17:05:42 DEBUG (MainThread) [zigpy.util] Tries remaining: 2
+2022-02-16 17:05:42 DEBUG (MainThread) [zigpy.device] [0xff96] Extending timeout for 0x1b request
+2022-02-16 17:05:42 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.ExtRouteChk.Req(Dst=0xFF96, RtStatus=<RouteStatus.ACTIVE: 1>, Options=<RouteOptions.NO_ROUTE_CACHE|MTO_ROUTE: 3>)
+2022-02-16 17:05:42 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.ExtRouteChk.Rsp(Status=<RoutingStatus.FAIL: 1>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=0, DstPanId=0x0000, SrcEndpoint=0, ClusterId=2, TSN=27, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x1B\x96\xFF')
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.NodeDescRsp.Callback(Src=0xFF96, Status=<Status.SUCCESS: 0>, NWK=0xFF96, NodeDescriptor=NullableNodeDescriptor(logical_type=<LogicalType.Router: 1>, complex_descriptor_available=0, user_descriptor_available=0, reserved=0, aps_flags=0, frequency_band=<FrequencyBand.Freq2400MHz: 8>, mac_capability_flags=<MACCapabilityFlags.AllocateAddress|RxOnWhenIdle|MainsPowered|FullFunctionDevice: 142>, manufacturer_code=4417, maximum_buffer_size=66, maximum_incoming_transfer_size=66, server_mask=10752, maximum_outgoing_transfer_size=66, descriptor_capability_field=<DescriptorCapability.NONE: 0>, *allocate_address=True, *is_alternate_pan_coordinator=False, *is_coordinator=False, *is_end_device=False, *is_full_function_device=True, *is_mains_powered=True, *is_receiver_on_when_idle=True, *is_router=True, *is_security_capable=False))
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Command was not handled
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MsgCbIncoming.Callback(Src=0xFF96, IsBroadcast=<Bool.false: 0>, ClusterId=32770, SecurityUse=0, TSN=27, MacDst=0x0000, Data=b'\x00\x96\xFF\x01\x40\x8E\x41\x11\x42\x42\x00\x00\x2A\x42\x00\x00')
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <Device model=None manuf=None nwk=0xFF96 ieee=a4:c1:38:3b:09:ba:bb:13 is_initialized=False> from ep 0 to ep 0, cluster 32770: b'\x1b\x00\x96\xff\x01@\x8eA\x11BB\x00\x00*B\x00\x00'
+2022-02-16 17:05:43 INFO (MainThread) [zigpy.device] [0xff96] Got Node Descriptor: NodeDescriptor(logical_type=<LogicalType.Router: 1>, complex_descriptor_available=0, user_descriptor_available=0, reserved=0, aps_flags=0, frequency_band=<FrequencyBand.Freq2400MHz: 8>, mac_capability_flags=<MACCapabilityFlags.AllocateAddress|RxOnWhenIdle|MainsPowered|FullFunctionDevice: 142>, manufacturer_code=4417, maximum_buffer_size=66, maximum_incoming_transfer_size=66, server_mask=10752, maximum_outgoing_transfer_size=66, descriptor_capability_field=<DescriptorCapability.NONE: 0>, *allocate_address=True, *is_alternate_pan_coordinator=False, *is_coordinator=False, *is_end_device=False, *is_full_function_device=True, *is_mains_powered=True, *is_receiver_on_when_idle=True, *is_router=True, *is_security_capable=False)
+2022-02-16 17:05:43 INFO (MainThread) [zigpy.device] [0xff96] Discovering endpoints
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.util] Tries remaining: 3
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.ExtRouteChk.Req(Dst=0xFF96, RtStatus=<RouteStatus.ACTIVE: 1>, Options=<RouteOptions.NO_ROUTE_CACHE|MTO_ROUTE: 3>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.ExtRouteChk.Rsp(Status=<RoutingStatus.SUCCESS: 0>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=0, DstPanId=0x0000, SrcEndpoint=0, ClusterId=5, TSN=28, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x1C\x96\xFF')
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.ActiveEpRsp.Callback(Src=0xFF96, Status=<Status.SUCCESS: 0>, NWK=0xFF96, ActiveEndpoints=[1, 242])
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Command was not handled
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MsgCbIncoming.Callback(Src=0xFF96, IsBroadcast=<Bool.false: 0>, ClusterId=32773, SecurityUse=0, TSN=28, MacDst=0x0000, Data=b'\x00\x96\xFF\x02\x01\xF2')
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <Device model=None manuf=None nwk=0xFF96 ieee=a4:c1:38:3b:09:ba:bb:13 is_initialized=False> from ep 0 to ep 0, cluster 32773: b'\x1c\x00\x96\xff\x02\x01\xf2'
+2022-02-16 17:05:43 INFO (MainThread) [zigpy.device] [0xff96] Discovered endpoints: [1, 242]
+2022-02-16 17:05:43 INFO (MainThread) [zigpy.device] [0xff96] Initializing endpoints [<Endpoint id=1 in=[] out=[] status=<Status.NEW: 0>>, <Endpoint id=242 in=[] out=[] status=<Status.NEW: 0>>]
+2022-02-16 17:05:43 INFO (MainThread) [zigpy.endpoint] [0xff96:1] Discovering endpoint information
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.util] Tries remaining: 3
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.ExtRouteChk.Req(Dst=0xFF96, RtStatus=<RouteStatus.ACTIVE: 1>, Options=<RouteOptions.NO_ROUTE_CACHE|MTO_ROUTE: 3>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.ExtRouteChk.Rsp(Status=<RoutingStatus.SUCCESS: 0>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=0, DstPanId=0x0000, SrcEndpoint=0, ClusterId=4, TSN=29, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x1D\x96\xFF\x01')
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.SimpleDescRsp.Callback(Src=0xFF96, Status=<Status.SUCCESS: 0>, NWK=0xFF96, SimpleDescriptor=SizePrefixedSimpleDescriptor(endpoint=1, profile=260, device_type=81, device_version=1, input_clusters=[4, 5, 61184, 0], output_clusters=[25, 10]))
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Command was not handled
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MsgCbIncoming.Callback(Src=0xFF96, IsBroadcast=<Bool.false: 0>, ClusterId=32772, SecurityUse=0, TSN=29, MacDst=0x0000, Data=b'\x00\x96\xFF\x14\x01\x04\x01\x51\x00\x01\x04\x04\x00\x05\x00\x00\xEF\x00\x00\x02\x19\x00\x0A\x00')
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <Device model=None manuf=None nwk=0xFF96 ieee=a4:c1:38:3b:09:ba:bb:13 is_initialized=False> from ep 0 to ep 0, cluster 32772: b'\x1d\x00\x96\xff\x14\x01\x04\x01Q\x00\x01\x04\x04\x00\x05\x00\x00\xef\x00\x00\x02\x19\x00\n\x00'
+2022-02-16 17:05:43 INFO (MainThread) [zigpy.endpoint] [0xff96:1] Discovered endpoint information: SizePrefixedSimpleDescriptor(endpoint=1, profile=260, device_type=81, device_version=1, input_clusters=[4, 5, 61184, 0], output_clusters=[25, 10])
+2022-02-16 17:05:43 WARNING (MainThread) [zigpy.zcl] Unknown cluster 61184
+2022-02-16 17:05:43 INFO (MainThread) [zigpy.endpoint] [0xff96:242] Discovering endpoint information
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.util] Tries remaining: 3
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.ExtRouteChk.Req(Dst=0xFF96, RtStatus=<RouteStatus.ACTIVE: 1>, Options=<RouteOptions.NO_ROUTE_CACHE|MTO_ROUTE: 3>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.ExtRouteChk.Rsp(Status=<RoutingStatus.SUCCESS: 0>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=0, DstPanId=0x0000, SrcEndpoint=0, ClusterId=4, TSN=30, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x1E\x96\xFF\xF2')
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.SimpleDescRsp.Callback(Src=0xFF96, Status=<Status.SUCCESS: 0>, NWK=0xFF96, SimpleDescriptor=SizePrefixedSimpleDescriptor(endpoint=242, profile=41440, device_type=97, device_version=0, input_clusters=[], output_clusters=[33]))
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Command was not handled
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MsgCbIncoming.Callback(Src=0xFF96, IsBroadcast=<Bool.false: 0>, ClusterId=32772, SecurityUse=0, TSN=30, MacDst=0x0000, Data=b'\x00\x96\xFF\x0A\xF2\xE0\xA1\x61\x00\x00\x00\x01\x21\x00')
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.application] Received frame on uninitialized device <Device model=None manuf=None nwk=0xFF96 ieee=a4:c1:38:3b:09:ba:bb:13 is_initialized=False> from ep 0 to ep 0, cluster 32772: b'\x1e\x00\x96\xff\n\xf2\xe0\xa1a\x00\x00\x00\x01!\x00'
+2022-02-16 17:05:43 INFO (MainThread) [zigpy.endpoint] [0xff96:242] Discovered endpoint information: SizePrefixedSimpleDescriptor(endpoint=242, profile=41440, device_type=97, device_version=0, input_clusters=[], output_clusters=[33])
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=0, TSN=31, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x1F\x00\x04\x00\x05\x00')
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=31)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=0, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=42, SecurityUse=<Bool.false: 0>, TimeStamp=4993314, TSN=0, Data=b'\x18\x1F\x01\x04\x00\x00\x42\x10\x5F\x54\x5A\x45\x32\x30\x30\x5F\x6E\x6B\x6C\x71\x6A\x6B\x36\x32\x05\x00\x00\x42\x06\x54\x53\x30\x36\x30\x31', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=31 command_id=Command.Read_Attributes_rsp>
+2022-02-16 17:05:43 INFO (MainThread) [zigpy.device] [0xff96] Read model 'TS0601' and manufacturer '_TZE200_nklqjk62' from <Endpoint id=1 in=[groups:0x0004, scenes:0x0005, None:0xEF00, basic:0x0000] out=[ota:0x0019, time:0x000A] status=<Status.ZDO_INIT: 1>>
+2022-02-16 17:05:43 INFO (MainThread) [zigpy.device] [0xff96] Discovered basic device information for <Device model='TS0601' manuf='_TZE200_nklqjk62' nwk=0xFF96 ieee=a4:c1:38:3b:09:ba:bb:13 is_initialized=True>
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.application] Device is initialized <Device model='TS0601' manuf='_TZE200_nklqjk62' nwk=0xFF96 ieee=a4:c1:38:3b:09:ba:bb:13 is_initialized=True>
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.quirks.registry] Checking quirks for _TZE200_nklqjk62 TS0601 (a4:c1:38:3b:09:ba:bb:13)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.tuya.ts0601_switch_door.TuyaGarageSwitchTO'>
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.quirks.registry] Found custom device replacement for a4:c1:38:3b:09:ba:bb:13: <class 'zhaquirks.tuya.ts0601_switch_door.TuyaGarageSwitchTO'>
+2022-02-16 17:05:43 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'RSSISensor' using ['basic']
+2022-02-16 17:05:43 DEBUG (MainThread) [homeassistant.components.zha.core.discovery] 'sensor' component -> 'LQISensor' using ['basic']
+2022-02-16 17:05:43 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] device - 0xFF96:a4:c1:38:3b:09:ba:bb:13 entering async_device_initialized - is_new_join: True
+2022-02-16 17:05:43 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] device - 0xFF96:a4:c1:38:3b:09:ba:bb:13 has joined the ZHA zigbee network
+2022-02-16 17:05:43 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xFF96](TS0601): started configuration
+2022-02-16 17:05:43 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:ZDO](TS0601): 'async_configure' stage succeeded
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.ExtRouteChk.Req(Dst=0xFF96, RtStatus=<RouteStatus.ACTIVE: 1>, Options=<RouteOptions.NO_ROUTE_CACHE|MTO_ROUTE: 3>)
+2022-02-16 17:05:43 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0000]: finished channel configuration
+2022-02-16 17:05:43 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0019]: finished channel configuration
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.appdb] Error handling '_save_attribute' event with (a4:c1:38:3b:09:ba:bb:13, 1, 0, 4, '_TZE200_nklqjk62') params: FOREIGN KEY constraint failed
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy.appdb] Error handling '_save_attribute' event with (a4:c1:38:3b:09:ba:bb:13, 1, 0, 5, 'TS0601') params: FOREIGN KEY constraint failed
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.ExtRouteChk.Rsp(Status=<RoutingStatus.SUCCESS: 0>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=0, DstPanId=0x0000, SrcEndpoint=0, ClusterId=33, TSN=32, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x20\x13\xBB\xBA\x09\x3B\x38\xC1\xA4\x01\x06\x00\x03\xD5\xF7\x5F\x21\x00\x4B\x12\x00\x01')
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.BindRsp.Callback(Src=0xFF96, Status=<Status.INVALID_EP: 130>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Command was not handled
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.MsgCbIncoming.Callback(Src=0xFF96, IsBroadcast=<Bool.false: 0>, ClusterId=32801, SecurityUse=0, TSN=32, MacDst=0x0000, Data=b'\x82')
+2022-02-16 17:05:43 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: bound 'on_off' cluster: Status.INVALID_EP
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=6, TSN=33, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x21\x06\x00\x00\x00\x10\x00\x00\x84\x03')
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:43 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=33)
+2022-02-16 17:05:48 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=61184, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=51, SecurityUse=<Bool.false: 0>, TimeStamp=5288839, TSN=0, Data=b'\x09\x3F\x11\x00\x05\x40', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:48 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=63 command_id=17>
+2022-02-16 17:05:48 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0011: [MCUVersionRsp(tsn=1280, version=64)]
+2022-02-16 17:05:48 WARNING (MainThread) [zhaquirks.tuya] Unsupported command: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=63 command_id=17>
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: failed to set reporting on 'on_off' cluster for: 
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: finished channel configuration
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: 'async_configure' stage succeeded
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0000]: 'async_configure' stage succeeded
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0019]: 'async_configure' stage succeeded
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xFF96](TS0601): completed configuration
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xFF96](TS0601): stored in registry: ZhaDeviceEntry(name='_TZE200_nklqjk62 TS0601', ieee='a4:c1:38:3b:09:ba:bb:13', last_seen=1645027548.3382998)
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xFF96](TS0601): started initialization
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:ZDO](TS0601): 'async_initialize' stage succeeded
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0000]: initializing channel: from_cache: False
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0000]: finished channel initialization
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0019]: initializing channel: from_cache: False
+2022-02-16 17:05:48 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0019]: finished channel initialization
+2022-02-16 17:05:48 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=6, TSN=34, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x22\x00\x00\x00')
+2022-02-16 17:05:48 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:48 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=34)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=61184, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=45, SecurityUse=<Bool.false: 0>, TimeStamp=5338907, TSN=0, Data=b'\x09\x3F\x11\x00\x05\x40', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=63 command_id=17>
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0011: [MCUVersionRsp(tsn=1280, version=64)]
+2022-02-16 17:05:49 WARNING (MainThread) [zhaquirks.tuya] Unsupported command: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=63 command_id=17>
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=61184, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=45, SecurityUse=<Bool.false: 0>, TimeStamp=5363956, TSN=0, Data=b'\x09\x40\x02\x00\x5A\x0C\x04\x00\x01\x02', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=64 command_id=2>
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=90, command_id=1036, function=0, data=[1, 2])]
+2022-02-16 17:05:49 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 780, state: 2
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=61184, TSN=64, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK: 32>, Radius=30, Data=b'\x18\x40\x0B\x02\x00')
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=64)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=61184, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=48, SecurityUse=<Bool.false: 0>, TimeStamp=5367933, TSN=0, Data=b'\x09\x41\x02\x00\x5B\x04\x02\x00\x04\x00\x00\x00\x0A', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=65 command_id=2>
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=91, command_id=516, function=0, data=[4, 0, 0, 0, 10])]
+2022-02-16 17:05:49 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 260, state: 0
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=61184, TSN=65, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK: 32>, Radius=30, Data=b'\x18\x41\x0B\x02\x00')
+2022-02-16 17:05:49 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xF34C](TRADFRI bulb E27 W opal 1000lm): Attempting to checkin with device - missed checkins: 1
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xF34C), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=0, TSN=35, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x23\x00\x04\x00')
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=65)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=61184, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=48, SecurityUse=<Bool.false: 0>, TimeStamp=5371362, TSN=0, Data=b'\x09\x42\x02\x00\x5C\x02\x02\x00\x04\x00\x00\x00\x00', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=66 command_id=2>
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=92, command_id=514, function=0, data=[4, 0, 0, 0, 0])]
+2022-02-16 17:05:49 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 258, state: 0
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=61184, TSN=66, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK: 32>, Radius=30, Data=b'\x18\x42\x0B\x02\x00')
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.MAC_NO_ACK: 233>, Endpoint=1, TSN=35)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.zigbee.application] Request failed (Unsuccessful request status code: <Status.MAC_NO_ACK: 233>), retry attempt 1 of 5
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=66)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=61184, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=48, SecurityUse=<Bool.false: 0>, TimeStamp=5374804, TSN=0, Data=b'\x09\x43\x02\x00\x5D\x05\x02\x00\x04\x00\x00\x0E\x10', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=67 command_id=2>
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=93, command_id=517, function=0, data=[4, 0, 0, 14, 16])]
+2022-02-16 17:05:49 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 261, state: 0
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=61184, TSN=67, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK: 32>, Radius=30, Data=b'\x18\x43\x0B\x02\x00')
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=67)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=61184, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=48, SecurityUse=<Bool.false: 0>, TimeStamp=5378175, TSN=0, Data=b'\x09\x44\x02\x00\x5E\x0B\x01\x00\x01\x00', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=68 command_id=2>
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=94, command_id=267, function=0, data=[1, 0])]
+2022-02-16 17:05:49 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 11, state: 0
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=61184, TSN=68, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK: 32>, Radius=30, Data=b'\x18\x44\x0B\x02\x00')
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=68)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=61184, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=48, SecurityUse=<Bool.false: 0>, TimeStamp=5381529, TSN=0, Data=b'\x09\x45\x02\x00\x5F\x03\x01\x00\x01\x01', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=69 command_id=2>
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=95, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:05:49 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=61184, TSN=69, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK: 32>, Radius=30, Data=b'\x18\x45\x0B\x02\x00')
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=69)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=10, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=48, SecurityUse=<Bool.false: 0>, TimeStamp=5384911, TSN=0, Data=b'\x00\x46\x00\x07\x00', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x000a] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=False disable_default_response=False> manufacturer=None tsn=70 command_id=Command.Read_Attributes>
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x000a] ZCL request 0x0000: [[7]]
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=10, TSN=70, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK: 32>, Radius=30, Data=b'\x18\x46\x01\x07\x00\x00\x23\x6D\xEB\x9F\x29')
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:49 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=70)
+2022-02-16 17:05:50 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xE6B9](TS0601): Attempting to checkin with device - missed checkins: 1
+2022-02-16 17:05:50 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xE6B9), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=0, TSN=36, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x24\x00\x04\x00')
+2022-02-16 17:05:50 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:50 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.MAC_NO_ACK: 233>, Endpoint=1, TSN=36)
+2022-02-16 17:05:50 DEBUG (MainThread) [zigpy_znp.zigbee.application] Request failed (Unsuccessful request status code: <Status.MAC_NO_ACK: 233>), retry attempt 1 of 5
+2022-02-16 17:05:51 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xF34C), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=0, TSN=35, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x23\x00\x04\x00')
+2022-02-16 17:05:51 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:51 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.MAC_NO_ACK: 233>, Endpoint=1, TSN=35)
+2022-02-16 17:05:51 DEBUG (MainThread) [zigpy_znp.zigbee.application] Request failed (Unsuccessful request status code: <Status.MAC_NO_ACK: 233>), retry attempt 2 of 5
+2022-02-16 17:05:51 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestSrcRtg.Req(DstAddr=0xF34C, DstEndpoint=1, SrcEndpoint=1, ClusterId=0, TSN=35, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, SourceRoute=[], Data=b'\x00\x23\x00\x04\x00')
+2022-02-16 17:05:51 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestSrcRtg.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:51 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.MAC_NO_ACK: 233>, Endpoint=1, TSN=35)
+2022-02-16 17:05:51 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.ExtRouteDisc.Req(Dst=0xF34C, Options=<RouteDiscoveryOptions.UNICAST: 0>, Radius=30)
+2022-02-16 17:05:51 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.ExtRouteDisc.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:52 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xE6B9), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=0, TSN=36, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x24\x00\x04\x00')
+2022-02-16 17:05:52 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:52 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.MAC_NO_ACK: 233>, Endpoint=1, TSN=36)
+2022-02-16 17:05:52 DEBUG (MainThread) [zigpy_znp.zigbee.application] Request failed (Unsuccessful request status code: <Status.MAC_NO_ACK: 233>), retry attempt 2 of 5
+2022-02-16 17:05:52 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestSrcRtg.Req(DstAddr=0xE6B9, DstEndpoint=1, SrcEndpoint=1, ClusterId=0, TSN=36, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, SourceRoute=[], Data=b'\x00\x24\x00\x04\x00')
+2022-02-16 17:05:52 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestSrcRtg.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:52 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.MAC_NO_ACK: 233>, Endpoint=1, TSN=36)
+2022-02-16 17:05:52 DEBUG (MainThread) [zigpy_znp.api] Sending request: ZDO.ExtRouteDisc.Req(Dst=0xE6B9, Options=<RouteDiscoveryOptions.UNICAST: 0>, Radius=30)
+2022-02-16 17:05:52 DEBUG (MainThread) [zigpy_znp.api] Received command: ZDO.ExtRouteDisc.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:53 DEBUG (MainThread) [zigpy_znp.zigbee.application] Request failed (Unsuccessful request status code: <Status.MAC_NO_ACK: 233>), retry attempt 3 of 5
+2022-02-16 17:05:53 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xF34C), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=0, TSN=35, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x23\x00\x04\x00')
+2022-02-16 17:05:53 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:53 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.MAC_NO_ACK: 233>, Endpoint=1, TSN=35)
+2022-02-16 17:05:53 DEBUG (MainThread) [zigpy_znp.zigbee.application] Request failed (Unsuccessful request status code: <Status.MAC_NO_ACK: 233>), retry attempt 4 of 5
+2022-02-16 17:05:53 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: 
+2022-02-16 17:05:53 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: async_initialize: retryable request #1 failed: . Retrying in 1.1s
+2022-02-16 17:05:54 DEBUG (MainThread) [zigpy_znp.zigbee.application] Request failed (Unsuccessful request status code: <Status.MAC_NO_ACK: 233>), retry attempt 3 of 5
+2022-02-16 17:05:54 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.IEEE: 3>, address=08:6b:d7:ff:fe:35:1a:5a), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=0, TSN=35, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x23\x00\x04\x00')
+2022-02-16 17:05:54 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.NWK_INVALID_REQUEST: 194>)
+2022-02-16 17:05:54 DEBUG (MainThread) [zigpy_znp.zigbee.application] Request failed (Expected SRSP response AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>), got AF.DataRequestExt.Rsp(Status=<Status.NWK_INVALID_REQUEST: 194>)), retry attempt 5 of 5
+2022-02-16 17:05:54 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xE6B9), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=0, TSN=36, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x24\x00\x04\x00')
+2022-02-16 17:05:54 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:54 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.MAC_NO_ACK: 233>, Endpoint=1, TSN=36)
+2022-02-16 17:05:54 DEBUG (MainThread) [zigpy_znp.zigbee.application] Request failed (Unsuccessful request status code: <Status.MAC_NO_ACK: 233>), retry attempt 4 of 5
+2022-02-16 17:05:54 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:05:54 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=6, TSN=37, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x25\x00\x00\x00')
+2022-02-16 17:05:54 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:54 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=37)
+2022-02-16 17:05:55 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.IEEE: 3>, address=a4:c1:38:fe:ed:7b:97:75), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=0, TSN=36, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x24\x00\x04\x00')
+2022-02-16 17:05:55 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:55 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.MAC_NO_ACK: 233>, Endpoint=1, TSN=36)
+2022-02-16 17:05:55 DEBUG (MainThread) [zigpy_znp.zigbee.application] Request failed (Unsuccessful request status code: <Status.MAC_NO_ACK: 233>), retry attempt 5 of 5
+2022-02-16 17:05:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:05:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=0, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=48, SecurityUse=<Bool.false: 0>, TimeStamp=5844655, TSN=0, Data=b'\x08\x47\x0A\x01\x00\x20\x46\xE2\xFF\x20\x36\xE4\xFF\x20\x01', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=71 command_id=Command.Report_Attributes>
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=1>)]]
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=1
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=0, TSN=71, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK: 32>, Radius=30, Data=b'\x18\x47\x0B\x0A\x00')
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=0, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=48, SecurityUse=<Bool.false: 0>, TimeStamp=5857179, TSN=0, Data=b'\x08\x47\x0A\x01\x00\x20\x46\xE2\xFF\x20\x36\xE4\xFF\x20\x01', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=71 command_id=Command.Report_Attributes>
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=1>)]]
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=1
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy.util] Duplicate 71 TSN
+2022-02-16 17:05:57 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=71)
+2022-02-16 17:05:59 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: 
+2022-02-16 17:05:59 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: async_initialize: retryable request #2 failed: . Retrying in 0.8s
+2022-02-16 17:06:00 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:06:00 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=6, TSN=38, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK|ACK_REQUEST: 48>, Radius=30, Data=b'\x00\x26\x00\x00\x00')
+2022-02-16 17:06:00 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:06:01 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=38)
+2022-02-16 17:06:01 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.IncomingMsg.Callback(GroupId=0x0000, ClusterId=61184, SrcAddr=0xFF96, SrcEndpoint=1, DstEndpoint=1, WasBroadcast=<Bool.false: 0>, LQI=51, SecurityUse=<Bool.false: 0>, TimeStamp=6132301, TSN=0, Data=b'\x09\x48\x02\x00\x61\x03\x01\x00\x01\x01', MacSrcAddr=0xFF96, MsgResultRadius=29)
+2022-02-16 17:06:01 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=72 command_id=2>
+2022-02-16 17:06:01 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=97, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:06:01 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:06:01 DEBUG (MainThread) [zigpy_znp.api] Sending request: AF.DataRequestExt.Req(DstAddrModeAddress=AddrModeAddress(mode=<AddrMode.NWK: 2>, address=0xFF96), DstEndpoint=1, DstPanId=0x0000, SrcEndpoint=1, ClusterId=61184, TSN=72, Options=<TransmitOptions.SUPPRESS_ROUTE_DISC_NETWORK: 32>, Radius=30, Data=b'\x18\x48\x0B\x02\x00')
+2022-02-16 17:06:01 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataRequestExt.Rsp(Status=<Status.SUCCESS: 0>)
+2022-02-16 17:06:01 DEBUG (MainThread) [zigpy_znp.api] Received command: AF.DataConfirm.Callback(Status=<Status.SUCCESS: 0>, Endpoint=1, TSN=72)
+2022-02-16 17:06:03 DEBUG (MainThread) [zigpy_znp.api] Sending request: SYS.Ping.Req()
+2022-02-16 17:06:03 DEBUG (MainThread) [zigpy_znp.api] Received command: SYS.Ping.Rsp(Capabilities=<MTCapabilities.APP_CNF|GP|UTIL|ZDO|AF|SYS: 1625>)
+2022-02-16 17:06:06 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: 
+2022-02-16 17:06:06 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: async_initialize: retryable request #3 failed: . Retrying in 2.8s
+2022-02-16 17:06:08 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: initializing channel: from_cache: False
+2022-02-16 17:06:14 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: failed to get attributes '['on_off']' on 'on_off' cluster: 
+2022-02-16 17:06:14 WARNING (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: async_initialize: all attempts have failed: [TimeoutError(), TimeoutError(), TimeoutError(), TimeoutError()]
+2022-02-16 17:06:14 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: 'async_initialize' stage succeeded
+2022-02-16 17:06:14 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0000]: 'async_initialize' stage succeeded
+2022-02-16 17:06:14 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0019]: 'async_initialize' stage succeeded
+2022-02-16 17:06:14 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xFF96](TS0601): power source: Mains
+2022-02-16 17:06:14 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xFF96](TS0601): completed initialization
+2022-02-16 17:06:14 DEBUG (MainThread) [homeassistant.components.zha.entity] None: polling current state
+2022-02-16 17:06:24 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=9 command_id=Command.Report_Attributes>
+2022-02-16 17:06:24 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=80>)]]
+2022-02-16 17:06:24 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] Attribute report received: app_version=80
+2022-02-16 17:06:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:06:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:06:26 DEBUG (MainThread) [zigpy.device] Ignoring message (b'1c5f11180af700413d641000032817983900000000953994d93c41963900401245973900000000052121009a20000821160107270000000000000000092100030b20009b1001') on cluster 64704: unknown endpoint or cluster id: 'No cluster ID 0xfcc0 on (04:cf:8c:df:3c:7c:2f:bc, 1)'
+2022-02-16 17:06:31 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:31 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=99, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:06:31 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:06:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:32 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:32 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:32 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:32 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:33 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:33 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:33 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:33 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:33 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:34 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:34 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:34 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:34 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:34 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:34 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:34 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=73 command_id=2>
+2022-02-16 17:06:34 DEBUG (MainThread) [zigpy.device] [0xff96] Invalid state on future for 0x49 seq -- probably duplicate response
+2022-02-16 17:06:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:06:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:07:02 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=74 command_id=2>
+2022-02-16 17:07:02 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=101, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:07:02 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:07:03 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=75 command_id=Command.Report_Attributes>
+2022-02-16 17:07:03 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=65503, value=<TypeValue type=CharacterString, value=T�)>)]]
+2022-02-16 17:07:03 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: 65503=T�)
+2022-02-16 17:07:09 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xF34C](TRADFRI bulb E27 W opal 1000lm): Attempting to checkin with device - missed checkins: 2
+2022-02-16 17:07:11 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xE6B9](TS0601): Attempting to checkin with device - missed checkins: 2
+2022-02-16 17:07:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:07:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:07:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=76 command_id=2>
+2022-02-16 17:07:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=103, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:07:32 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:07:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:07:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:08:02 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=77 command_id=2>
+2022-02-16 17:08:02 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=105, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:08:02 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:08:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:08:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:08:28 DEBUG (MainThread) [zigpy.device] Ignoring message (b'1c5f11800af700413d64100103281a9839fed4983f9539d465274096390040124597393548a340052110009a20000821160107270000000000000000092100040b20009b1001') on cluster 64704: unknown endpoint or cluster id: 'No cluster ID 0xfcc0 on (04:cf:8c:df:3c:7c:33:b0, 1)'
+2022-02-16 17:08:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=78 command_id=2>
+2022-02-16 17:08:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=107, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:08:32 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:08:50 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=79 command_id=Command.Report_Attributes>
+2022-02-16 17:08:50 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:08:50 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:08:54 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=10 command_id=Command.Report_Attributes>
+2022-02-16 17:08:54 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=80>)]]
+2022-02-16 17:08:54 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] Attribute report received: app_version=80
+2022-02-16 17:08:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:08:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:09:02 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=80 command_id=2>
+2022-02-16 17:09:02 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=109, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:09:02 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:09:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:09:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:09:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=81 command_id=2>
+2022-02-16 17:09:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=111, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:09:32 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:09:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:09:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:10:02 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=82 command_id=2>
+2022-02-16 17:10:02 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=113, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:10:02 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:10:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:10:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:10:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=83 command_id=2>
+2022-02-16 17:10:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=115, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:10:33 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:10:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:10:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:11:03 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=84 command_id=2>
+2022-02-16 17:11:03 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=117, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:11:03 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:11:20 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=85 command_id=Command.Report_Attributes>
+2022-02-16 17:11:20 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:11:20 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:11:24 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=11 command_id=Command.Report_Attributes>
+2022-02-16 17:11:24 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=80>)]]
+2022-02-16 17:11:24 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] Attribute report received: app_version=80
+2022-02-16 17:11:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:11:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:11:33 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: executed 'on' command with args: '()' kwargs: '{}' result: Status.SUCCESS
+2022-02-16 17:11:33 DEBUG (MainThread) [homeassistant.components.zha.entity] light.tze200_nklqjk62_ts0601_13bbba09_on_off: turned on: {'on_off': <Status.SUCCESS: 0>}
+2022-02-16 17:11:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=43 command_id=Command.Default_Response>
+2022-02-16 17:11:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=86 command_id=2>
+2022-02-16 17:11:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=119, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:11:33 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:11:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:11:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:12:03 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=87 command_id=2>
+2022-02-16 17:12:03 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=121, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:12:03 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:12:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:12:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:12:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=88 command_id=2>
+2022-02-16 17:12:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=123, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:12:33 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:12:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:12:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:13:03 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=89 command_id=2>
+2022-02-16 17:13:03 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=125, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:13:03 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:13:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:13:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:13:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=90 command_id=2>
+2022-02-16 17:13:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=127, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:13:33 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:13:36 DEBUG (MainThread) [zigpy.device] Ignoring message (b'1c5f11190af700413d641000032817983900000000953994d93c41963900401245973900000000052121009a20000821160107270000000000000000092100030b20009b1001') on cluster 64704: unknown endpoint or cluster id: 'No cluster ID 0xfcc0 on (04:cf:8c:df:3c:7c:2f:bc, 1)'
+2022-02-16 17:13:54 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=12 command_id=Command.Report_Attributes>
+2022-02-16 17:13:54 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=80>)]]
+2022-02-16 17:13:54 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] Attribute report received: app_version=80
+2022-02-16 17:13:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:13:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:13:59 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=91 command_id=Command.Report_Attributes>
+2022-02-16 17:13:59 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:13:59 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:14:04 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=92 command_id=2>
+2022-02-16 17:14:04 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=129, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:14:04 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:14:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:14:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:14:34 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=93 command_id=2>
+2022-02-16 17:14:34 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=131, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:14:34 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:14:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:14:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:15:04 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=94 command_id=2>
+2022-02-16 17:15:04 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=133, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:15:04 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:15:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:15:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:15:34 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=95 command_id=2>
+2022-02-16 17:15:34 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=135, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:15:34 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:15:43 DEBUG (MainThread) [homeassistant.components.zha.api] Reconfiguring node with ieee_address: a4:c1:38:3b:09:ba:bb:13
+2022-02-16 17:15:43 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xFF96](TS0601): started configuration
+2022-02-16 17:15:43 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:ZDO](TS0601): 'async_configure' stage succeeded
+2022-02-16 17:15:43 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0000]: finished channel configuration
+2022-02-16 17:15:43 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0019]: finished channel configuration
+2022-02-16 17:15:44 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: bound 'on_off' cluster: Status.INVALID_EP
+2022-02-16 17:15:49 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: failed to set reporting on 'on_off' cluster for: 
+2022-02-16 17:15:49 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: finished channel configuration
+2022-02-16 17:15:49 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0006]: 'async_configure' stage succeeded
+2022-02-16 17:15:49 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0000]: 'async_configure' stage succeeded
+2022-02-16 17:15:49 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xFF96:1:0x0019]: 'async_configure' stage succeeded
+2022-02-16 17:15:49 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xFF96](TS0601): completed configuration
+2022-02-16 17:15:49 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xFF96](TS0601): stored in registry: ZhaDeviceEntry(name='_TZE200_nklqjk62 TS0601', ieee='a4:c1:38:3b:09:ba:bb:13', last_seen=1645028144.8085597)
+2022-02-16 17:15:51 DEBUG (MainThread) [zigpy.device] Ignoring message (b'1c5f11810af700413d64100103281a9839f853833f95398c6727409639004012459739c54e8c40052110009a20000821160107270000000000000000092100040b20009b1001') on cluster 64704: unknown endpoint or cluster id: 'No cluster ID 0xfcc0 on (04:cf:8c:df:3c:7c:33:b0, 1)'
+2022-02-16 17:15:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:15:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:16:04 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=96 command_id=2>
+2022-02-16 17:16:04 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=137, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:16:04 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:16:23 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=13 command_id=Command.Report_Attributes>
+2022-02-16 17:16:23 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=80>)]]
+2022-02-16 17:16:23 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] Attribute report received: app_version=80
+2022-02-16 17:16:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:16:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=97 command_id=Command.Report_Attributes>
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=97 command_id=Command.Report_Attributes>
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.util] Duplicate 97 TSN
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=97 command_id=Command.Report_Attributes>
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.util] Duplicate 97 TSN
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=97 command_id=Command.Report_Attributes>
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.util] Duplicate 97 TSN
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=97 command_id=Command.Report_Attributes>
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:16:32 DEBUG (MainThread) [zigpy.util] Duplicate 97 TSN
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=97 command_id=Command.Report_Attributes>
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.util] Duplicate 97 TSN
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=97 command_id=Command.Report_Attributes>
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.util] Duplicate 97 TSN
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=97 command_id=Command.Report_Attributes>
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:16:33 DEBUG (MainThread) [zigpy.util] Duplicate 97 TSN
+2022-02-16 17:16:34 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=98 command_id=2>
+2022-02-16 17:16:34 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=139, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:16:34 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:16:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:16:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:17:04 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=99 command_id=2>
+2022-02-16 17:17:04 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=141, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:17:04 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:17:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:17:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:17:35 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=100 command_id=2>
+2022-02-16 17:17:35 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=143, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:17:35 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:17:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:17:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:18:05 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=101 command_id=2>
+2022-02-16 17:18:05 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=145, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:18:05 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:18:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:18:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:18:35 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=102 command_id=2>
+2022-02-16 17:18:35 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=147, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:18:35 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:18:53 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=14 command_id=Command.Report_Attributes>
+2022-02-16 17:18:53 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=80>)]]
+2022-02-16 17:18:53 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] Attribute report received: app_version=80
+2022-02-16 17:18:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:18:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:19:05 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=103 command_id=2>
+2022-02-16 17:19:05 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=149, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:19:05 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:19:20 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=104 command_id=Command.Report_Attributes>
+2022-02-16 17:19:20 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:19:20 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:19:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:19:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:19:35 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=105 command_id=2>
+2022-02-16 17:19:35 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=151, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:19:35 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:19:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:19:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:20:05 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=106 command_id=2>
+2022-02-16 17:20:05 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=153, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:20:05 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:20:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:20:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:20:35 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=107 command_id=2>
+2022-02-16 17:20:35 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=155, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:20:35 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:20:36 DEBUG (MainThread) [zigpy.device] Ignoring message (b'1c5f111a0af700413d641000032817983900000000953994d93c41963900401245973900000000052121009a20000821160107270000000000000000092100020b20009b1001') on cluster 64704: unknown endpoint or cluster id: 'No cluster ID 0xfcc0 on (04:cf:8c:df:3c:7c:2f:bc, 1)'
+2022-02-16 17:20:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:20:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:21:06 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=108 command_id=2>
+2022-02-16 17:21:06 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=157, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:21:06 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:21:23 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=15 command_id=Command.Report_Attributes>
+2022-02-16 17:21:23 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=80>)]]
+2022-02-16 17:21:23 DEBUG (MainThread) [zigpy.zcl] [0x1475:1:0x0000] Attribute report received: app_version=80
+2022-02-16 17:21:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:21:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:21:36 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=109 command_id=2>
+2022-02-16 17:21:36 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=159, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:21:36 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:21:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:21:56 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:21:56 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=110 command_id=Command.Report_Attributes>
+2022-02-16 17:21:56 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=1, value=<TypeValue type=uint8_t, value=70>), Attribute(attrid=65506, value=<TypeValue type=uint8_t, value=54>), Attribute(attrid=65508, value=<TypeValue type=uint8_t, value=0>)]]
+2022-02-16 17:21:56 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0x0000] Attribute report received: app_version=70, 65506=54, 65508=0
+2022-02-16 17:22:06 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=111 command_id=2>
+2022-02-16 17:22:06 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=161, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:22:06 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
+2022-02-16 17:22:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x5A61:1:0x0b04]: async_update
+2022-02-16 17:22:26 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0x3904:1:0x0b04]: async_update
+2022-02-16 17:22:36 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=CLUSTER_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=112 command_id=2>
+2022-02-16 17:22:36 DEBUG (MainThread) [zigpy.zcl] [0xff96:1:0xef00] ZCL request 0x0002: [Command(status=0, tsn=163, command_id=259, function=0, data=[1, 1])]
+2022-02-16 17:22:36 DEBUG (MainThread) [zhaquirks.tuya] a4:c1:38:3b:09:ba:bb:13 - Received switch event message, channel: 3, state: 1
